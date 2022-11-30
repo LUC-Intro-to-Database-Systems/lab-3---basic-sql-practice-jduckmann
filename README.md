@@ -22,6 +22,13 @@ You will record your relationships within this readme file.  When writing down t
   3. Make sure all columns in the database are marked as NOT NULL
   4. Enforce that the relationship between **CLIENT** and **POLICY** are strong and enforce cascading if either a **CLIENT** or **POLICY** is deleted.
   5. Include the SQL commands used for creating the database and tables into the file you will use for deliverable 2.
+  
+Code:
+
+will be inserted once I figure out how to export the code from MYSQL
+  
+  
+  
 
 
 ### Deliverable 2 - Data Manipulation Language (10 Points)
