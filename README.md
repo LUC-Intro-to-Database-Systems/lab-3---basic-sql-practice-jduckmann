@@ -130,6 +130,8 @@ You can do this by navigating to EDIT -> SQL Editor -> and unchecking Safe Updat
 
 2.  Write the SQL command to change client Chris Isaac to Chris Pearson.  No output for this command
 
+![image](https://user-images.githubusercontent.com/117416920/206378145-b8b9c231-4bbe-47b5-bbae-51415ae33c80.png)
+
 
 3.  Write the SQL command to display all policies that have a policy type of 'Home'.
 <img src="https://instructorc.github.io/site/slides/database/images/lab3/3.PNG" width="300" alt="output query 3"/>
@@ -211,6 +213,7 @@ OR
 List all clients along with their respective policies.<br>
 <img src="https://instructorc.github.io/site/slides/database/images/lab3/ec.PNG" width="550" alt="output query Extra credit"/>
 
+![image](https://user-images.githubusercontent.com/117416920/206378035-3815d809-02f4-43ee-8c79-5eb0612923bf.png)
 
 
 ## Submission Guidelines
