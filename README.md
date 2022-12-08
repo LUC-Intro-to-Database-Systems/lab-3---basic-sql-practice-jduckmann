@@ -130,16 +130,35 @@ You can do this by navigating to EDIT -> SQL Editor -> and unchecking Safe Updat
 
 2.  Write the SQL command to change client Chris Isaac to Chris Pearson.  No output for this command
 
+
 3.  Write the SQL command to display all policies that have a policy type of 'Home'.
 <img src="https://instructorc.github.io/site/slides/database/images/lab3/3.PNG" width="300" alt="output query 3"/>
+
+![image](https://user-images.githubusercontent.com/117416920/206369546-9638dba8-8620-4602-9910-6717c862cc5c.png)
+
+
 4.  Write the SQL command to display all columns for policies that have yearly terms
 <img src="https://instructorc.github.io/site/slides/database/images/lab3/4.PNG" width="300" alt="output query 4"/>
+
+![image](https://user-images.githubusercontent.com/117416920/206369686-5e3e31c3-1fa2-4cf2-a856-ec1e038ae39d.png)
+
+
 5.  Write the SQL command that displays the client name, address, and age sorted by age in descending order in the figure below
 <img src="https://instructorc.github.io/site/slides/database/images/lab3/5.PNG" width="300" alt="output query 5"/>
+
+![image](https://user-images.githubusercontent.com/117416920/206369924-5e24988d-7334-42e4-b18f-6b083d5faaa9.png)
+
 6.  Write the SQL command that calculates the average age of all clients
 <img src="https://instructorc.github.io/site/slides/database/images/lab3/6.PNG" width="90" alt="output query 6"/>
+
+![image](https://user-images.githubusercontent.com/117416920/206370131-946d0d93-ac70-472b-a68c-3b56c13367a8.png)
+
+
 7.  Write the SQL command that lists the name and age of clients who are between the ages of 22 and 40
 <img src="https://instructorc.github.io/site/slides/database/images/lab3/7.PNG" width="180" alt="output query 7"/>
+
+![image](https://user-images.githubusercontent.com/117416920/206370352-4c7617b0-a086-4133-b24a-76f65b1ea1ce.png)
+
 8.  Write the SQL command that lists all home policies that have a policy limit under $250,000.
 <img src="https://instructorc.github.io/site/slides/database/images/lab3/8.PNG" width="270" alt="output query 8"/>
 9.  Write the SQL  command that lists the client's name and address for all addresses that contain 'Featherstone' and order by age in ascending order.
