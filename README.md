@@ -162,14 +162,25 @@ You can do this by navigating to EDIT -> SQL Editor -> and unchecking Safe Updat
 8.  Write the SQL command that lists all home policies that have a policy limit under $250,000.
 <img src="https://instructorc.github.io/site/slides/database/images/lab3/8.PNG" width="270" alt="output query 8"/>
 
+I'm not sure why it is having trouble reading the 1,000,000$ prices:
 
+![image](https://user-images.githubusercontent.com/117416920/206373057-592069e6-07cf-4c5f-a7bf-17ae33b4f77a.png)
 
 9.  Write the SQL  command that lists the client's name and address for all addresses that contain 'Featherstone' and order by age in ascending order.
 <img src="https://instructorc.github.io/site/slides/database/images/lab3/9.PNG" width="200" alt="output query 9"/>
+
+![image](https://user-images.githubusercontent.com/117416920/206373570-35c2e197-ee51-4d0f-8de4-ffef824d0780.png)
+
 10.  Write the SQL command that lists the name, address, and age of clients who are age 35 and above and whose address contains the number 8
 <img src="https://instructorc.github.io/site/slides/database/images/lab3/10.PNG" width="300" alt="output query 10"/>
+
+![image](https://user-images.githubusercontent.com/117416920/206373883-a4b667b6-e61a-4b38-8d63-a453d07c1868.png)
+
 11.  Write the SQL command that returns the total # of policies offered
 <img src="https://instructorc.github.io/site/slides/database/images/lab3/11.PNG" width="80" alt="output query 11"/>
+
+
+
 12.  Write the SQL command that returns the policy type and the total count of policies by type
 <img src="https://instructorc.github.io/site/slides/database/images/lab3/12.PNG" width="170" alt="output query 12"/>
 13.  Write the SQL command that returns the youngest and oldest client
