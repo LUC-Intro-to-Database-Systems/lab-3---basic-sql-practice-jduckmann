@@ -191,12 +191,21 @@ I'm not sure why it is having trouble reading the 1,000,000$ prices:
 
 ![image](https://user-images.githubusercontent.com/117416920/206375882-8a328566-025d-4121-b86b-f1139fed472d.png)
 
+OR
+
+![image](https://user-images.githubusercontent.com/117416920/206376570-d5cb9fe4-b521-481c-9734-b2bc414d0f70.png)
+
 14.  Write the SQL command that lists all clients that have a home insurance policy
 <img src="https://instructorc.github.io/site/slides/database/images/lab3/14.PNG" width="450" alt="output query 14"/>
+
+![image](https://user-images.githubusercontent.com/117416920/206377205-6b2a0972-df75-4a03-8bf0-e210f4ba9e5e.png)
 
 
 15.  Write the SQL command that lists all of the instances of a policy where the client ID is equal to #2
 <img src="https://instructorc.github.io/site/slides/database/images/lab3/15.PNG" width="450" alt="output query 15"/>
+
+![image](https://user-images.githubusercontent.com/117416920/206377593-29507d2c-eae8-4567-8bc3-e7391168885b.png)
+
 
 ### Extra Credit (2 Points)
 List all clients along with their respective policies.<br>
