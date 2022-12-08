@@ -179,14 +179,22 @@ I'm not sure why it is having trouble reading the 1,000,000$ prices:
 11.  Write the SQL command that returns the total # of policies offered
 <img src="https://instructorc.github.io/site/slides/database/images/lab3/11.PNG" width="80" alt="output query 11"/>
 
-
+![image](https://user-images.githubusercontent.com/117416920/206374754-8e0f3a94-f097-4ca4-993b-c5b046fc338e.png)
 
 12.  Write the SQL command that returns the policy type and the total count of policies by type
 <img src="https://instructorc.github.io/site/slides/database/images/lab3/12.PNG" width="170" alt="output query 12"/>
+
+![image](https://user-images.githubusercontent.com/117416920/206375008-14fb89c4-554a-4a5e-bb48-1a07c1362fe0.png)
+
 13.  Write the SQL command that returns the youngest and oldest client
 <img src="https://instructorc.github.io/site/slides/database/images/lab3/13.PNG" width="170" alt="output query 13"/>
+
+![image](https://user-images.githubusercontent.com/117416920/206375882-8a328566-025d-4121-b86b-f1139fed472d.png)
+
 14.  Write the SQL command that lists all clients that have a home insurance policy
 <img src="https://instructorc.github.io/site/slides/database/images/lab3/14.PNG" width="450" alt="output query 14"/>
+
+
 15.  Write the SQL command that lists all of the instances of a policy where the client ID is equal to #2
 <img src="https://instructorc.github.io/site/slides/database/images/lab3/15.PNG" width="450" alt="output query 15"/>
 
