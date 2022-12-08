@@ -161,6 +161,9 @@ You can do this by navigating to EDIT -> SQL Editor -> and unchecking Safe Updat
 
 8.  Write the SQL command that lists all home policies that have a policy limit under $250,000.
 <img src="https://instructorc.github.io/site/slides/database/images/lab3/8.PNG" width="270" alt="output query 8"/>
+
+
+
 9.  Write the SQL  command that lists the client's name and address for all addresses that contain 'Featherstone' and order by age in ascending order.
 <img src="https://instructorc.github.io/site/slides/database/images/lab3/9.PNG" width="200" alt="output query 9"/>
 10.  Write the SQL command that lists the name, address, and age of clients who are age 35 and above and whose address contains the number 8
