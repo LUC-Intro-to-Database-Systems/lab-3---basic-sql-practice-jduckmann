@@ -25,17 +25,109 @@ You will record your relationships within this readme file.  When writing down t
   
 Code:
 
-will be inserted once I figure out how to export the code from MYSQL
-  
-  
-  
+insert into client (clientID, client_name, client_address, client_age)
+values
+(1, 'James Clark',	'1001 Plymouth Ave',	38),
+(2, 'Leah Nicole',	'2401 Chicago Ave. #212',	36),
+(3, 'Silas Alexander',	'5012 Humboldt Lane',	22),
+(4,'Noah Charles',	'501 College Ave.',	25),
+(5,'Chris Isaac',	"228 e, 149th st.",	37),
+(6,'Noah Charles',	'501 College Ave.',	25),
+(7,'Brittney Owens',	'321 Thursday Ave.', 42),
+(8,'Kurt Douglas',	'123 Mt. Glenwood',	58),
+(9,'Areta Farries',	'789 Touy Ave.', 62),
+(10,'Jessica Daniel',	'698 Featherstone',	47),
+(11,'Gary Moore',	'698 Featherstone',	48),
+(12,'Elnora Daniel',	'698 Featherstone',	61),
+(13,'Daniel Moore',	'698 Featherstone',	22),
+(14,'Cheryl Pearson',	"228 e, 149th st.",	67);
+
+insert into policy (policyID, policyType, policyTerm, policyLimits)
+VALUES
+(1,'Home',	'yearly',	"$100,000 "),
+(2,'Home',	'yearly',	"$250,000 "),
+(3,'Home',	'yearly',	"$500,000 "),
+(4,'Home',	'yearly',	"$1,000,000 "),
+(5,'Home',	'6-month',	"$100,000 "),
+(6,'Home',	'6-month',	"$250,000 "),
+(7,'Home',	'6-month',	"$500,000 "),
+(8,'Home',	'6-month',	"$1,000,000 "),
+(9,'Car',	'yearly',	"$60,000 "),
+(10,'Car',	'yearly',	"$120,000 "),
+(11,'Car',	'6-month',	"$60,000 "),
+(12,'Car',	'6-month',	"$120,000 ");
+
+insert into policy_list (CLIENT_clientID, POLICY_policyID)
+VALUES
+(2,	1),
+(9,1),
+(13,1),
+(2,	4),
+(5,	4),
+(8,	5),
+(14,6),
+(11,7),
+(1,	8),
+(3,	8),
+(7,	9),
+(1,	10),
+(3,	10),
+(7,	10),
+(10,10),
+(6,	11),
+(4,	12);
+
+Code to create tables:
+CREATE TABLE IF NOT EXISTS `mydb`.`client` (
+  `clientID` INT NOT NULL AUTO_INCREMENT,
+  `client_name` VARCHAR(55) NOT NULL,
+  `client_address` VARCHAR(55) NOT NULL,
+  `client_age` INT NOT NULL,
+  PRIMARY KEY (`clientID`))
+ENGINE = InnoDB;
+-- -----------------------------------------------------
+-- Table `mydb`.`policy`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `mydb`.`policy` (
+  `policyID` INT NOT NULL AUTO_INCREMENT,
+  `policyType` VARCHAR(55) NOT NULL,
+  `policyTerm` VARCHAR(45) NOT NULL,
+  `policyLimits` VARCHAR(100) NOT NULL,
+  PRIMARY KEY (`policyID`))
+ENGINE = InnoDB;
+-- ----------------------------------------------------
+-- Table `mydb`.`policy_list`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `mydb`.`policy_list` (
+  `CLIENT_clientID` INT NOT NULL,
+  `POLICY_policyID` INT NOT NULL,
+  PRIMARY KEY (`CLIENT_clientID`, `POLICY_policyID`),
+  INDEX `policyID_idx` (`POLICY_policyID` ASC) VISIBLE,
+  CONSTRAINT `clientID`
+    FOREIGN KEY (`CLIENT_clientID`)
+    REFERENCES `mydb`.`client` (`clientID`)
+    ON DELETE CASCADE
+    ON UPDATE NO ACTION,
+  CONSTRAINT `policyID`
+    FOREIGN KEY (`POLICY_policyID`)
+    REFERENCES `mydb`.`policy` (`policyID`)
+    ON DELETE CASCADE
+    ON UPDATE NO ACTION)
+ENGINE = InnoDB;
 
 
 ### Deliverable 2 - Data Manipulation Language (10 Points)
-Create a file called **lab3.sql** and add the following queries into the file.  You will need to take a screenshot of the rendered output for each command and place a screenshot of your output beneath the example output provided.  Make sure to place a SQL comment above each command identifying the query.  In order to make changes to the data, you may need to change the SQL Editor settings.  You can do this by navigating to EDIT -> SQL Editor -> and unchecking Safe Updates.  It is advised to restart MySQL Workbench after changing this setting.
+Create a file called **lab3.sql** and add the following queries into the file.  
+You will need to take a screenshot of the rendered output for each command and place a screenshot of your output beneath the example output provided.  
+Make sure to place a SQL comment above each command identifying the query. 
+In order to make changes to the data, you may need to change the SQL Editor settings.  
+You can do this by navigating to EDIT -> SQL Editor -> and unchecking Safe Updates.  It is advised to restart MySQL Workbench after changing this setting.
 <br>First, write the SQL commands to insert data into each of the tables. Your insert statements should also be included in the lab2.sql file.  **The data files are listed in the repository for this lab**
 1.  Write the SQL command to list all clients and all the columns pertaining to a client.  The intended output is below.
 <img src="https://instructorc.github.io/site/slides/database/images/lab3/1.PNG" width="350" alt="output query 1"/>
+![image](https://user-images.githubusercontent.com/117416920/206367784-aebce551-a813-4dbf-b0c7-01cf43e2c715.png)
+
+
 2.  Write the SQL command to change client Chris Isaac to Chris Pearson.  No output for this command
 
 3.  Write the SQL command to display all policies that have a policy type of 'Home'.
