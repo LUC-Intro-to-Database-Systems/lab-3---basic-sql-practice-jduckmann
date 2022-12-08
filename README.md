@@ -136,7 +136,7 @@ You can do this by navigating to EDIT -> SQL Editor -> and unchecking Safe Updat
 3.  Write the SQL command to display all policies that have a policy type of 'Home'.
 <img src="https://instructorc.github.io/site/slides/database/images/lab3/3.PNG" width="300" alt="output query 3"/>
 
-![image](https://user-images.githubusercontent.com/117416920/206369546-9638dba8-8620-4602-9910-6717c862cc5c.png)
+![image](https://user-images.githubusercontent.com/117416920/206378408-0eab697f-5f94-4291-922e-63b688baecef.png)
 
 
 4.  Write the SQL command to display all columns for policies that have yearly terms
