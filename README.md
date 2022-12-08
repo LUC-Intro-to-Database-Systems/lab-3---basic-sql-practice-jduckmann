@@ -166,7 +166,7 @@ You can do this by navigating to EDIT -> SQL Editor -> and unchecking Safe Updat
 
 I'm not sure why it is having trouble reading the 1,000,000$ prices:
 
-![image](https://user-images.githubusercontent.com/117416920/206373057-592069e6-07cf-4c5f-a7bf-17ae33b4f77a.png)
+![image](https://user-images.githubusercontent.com/117416920/206378894-82578a1b-1b73-4a2c-8dac-1e90b8d9807b.png)
 
 9.  Write the SQL  command that lists the client's name and address for all addresses that contain 'Featherstone' and order by age in ascending order.
 <img src="https://instructorc.github.io/site/slides/database/images/lab3/9.PNG" width="200" alt="output query 9"/>
